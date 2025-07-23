@@ -1,0 +1,191 @@
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.dashboard-link {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard-link:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Layout */
+.dashboard {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+.dashboard a:hover {
+  background-color: #ddd;
+}
+
+.dashboard a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+/* Header */
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Create Button */
+.create-button {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background-color: #4338ca;
+}
+
+/* Task List */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Task Card */
+.task-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Task Title */
+.task-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  color: #111827;
+}
+
+/* Task Description */
+.task-card p {
+  margin: 0.3rem 0;
+  color: #4b5563;
+}
+
+.edit-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Labels: moderate fixed width */
+form label {
+  display: inline-block;
+  width: 90px;      
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #333;
+}
+
+/* Wrap input groups vertically (stacked) with spacing */
+form div {
+  margin-bottom: 1rem;
+}
+
+/* Inputs, textarea, select full width but with max-width */
+form input[type="text"],
+form textarea,
+form select {
+  width: 100%;
+  max-width: 500px;  
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline-color: #4f46e5;
+  box-sizing: border-box;
+}
+
+/* Container for task card buttons */
+.task-card .button-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.8rem;          
+  flex-wrap: wrap;      
+}
+
+/* Common button style for Details, Edit, Delete */
+.task-card .button-group button,
+.task-card .button-group a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+  min-width: 80px;
+}
+
+/* Details button style */
+.task-card .button-group .details-button {
+  background-color: #2563eb;  /* blue */
+}
+
+.task-card .button-group .details-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Edit button style */
+.task-card .button-group .edit-button {
+  background-color: #10b981;  /* green */
+}
+
+.task-card .button-group .edit-button:hover {
+  background-color: #059669;
+}
+
+/* Delete button style */
+.task-card .button-group .delete-button {
+  background-color: #ef4444;  /* red */
+}
+
+.task-card .button-group .delete-button:hover {
+  background-color: #dc2626;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+}
+
+
